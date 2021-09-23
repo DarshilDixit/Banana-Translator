@@ -13,9 +13,9 @@ function errorHandler(error) {
 }
 
 function clickHandler() {
-    var inputText = textInput.value;
+    // var inputText = textInput.value;   USING IT IS NOT NECESSARY AS textInput.value can already run the game.
 
-    fetch(getTranslationURL(inputText))
+    fetch(getTranslationURL(textInput.value))
         .then(response => response.json())
         .then(json => {
             var translatedText = json.contents.translated;
