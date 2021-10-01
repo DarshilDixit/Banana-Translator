@@ -9,7 +9,7 @@ function getTranslationURL(text) {
 
 function errorHandler(error) {
     console.log("Error Occured!", error);
-    alert("Something went wrong ! Try again after sometime...");
+    alert(" Sorry! something went wrong from the server end. Try again after sometime...");
 }
 
 function clickHandler() {
