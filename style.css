@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}    
+nav{
+    background-color: rgba(255, 255, 0, 0.493);
+    height: 17vh;
+}
+nav img{
+    width: 140px;
+    padding: 0 20px;
+}
+header{
+    margin:auto;
+    margin-top: 40px;
+}
+h2{
+    font-style: italic ;
+}
+button{
+    background-color: yellow;
+    width: 200px;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+#txt-input{
+    width: 70vw;
+    height: 25vh;
+}
+
+#txt-output{
+    width: 70vw;
+    height: 25vh;
+}
+
+div{
+    margin: auto;
+}
+
+p{
+    font-style: italic;
+    font-weight: 500;
+}
