@@ -16,7 +16,7 @@ nav img{
 }
 header{
     margin:auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 h2{
     font-style: italic ;
@@ -50,4 +50,12 @@ div{
 p{
     font-style: italic;
     font-weight: 500;
+}
+
+textarea{
+    padding: 10px;
+}
+
+#footer{
+    height: 20vh;
 }
