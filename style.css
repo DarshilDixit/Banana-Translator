@@ -32,17 +32,6 @@ button{
     margin-top: 20px;
     font-size: 0.9rem;
 }
-
-#txt-input{
-    width: 70vw;
-    height: 25vh;
-}
-
-#txt-output{
-    width: 70vw;
-    height: 25vh;
-}
-
 div{
     margin: auto;
 }
@@ -54,6 +43,8 @@ p{
 
 textarea{
     padding: 10px;
+    width: 70vw;
+    height: 25vh;
 }
 
 #footer{
